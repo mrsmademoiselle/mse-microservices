@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("microservices/1/")
+@RequestMapping("microservices")
 public class Controller {
 
     private final Service service;
